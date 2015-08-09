@@ -1,0 +1,30 @@
+<% include ./partials/head.ejs%>
+
+<div class="start-container">
+    <input type="text" name="name" id="name" placeholder="Type your name here..." />
+    <div class="unv-start">Start</div>
+</div>
+<div class="wrapper">
+    <section id="oponent">
+        <div class="circle-container">
+            <svg class="circle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                <circle fill="#EF4136" cx="50.1" cy="50" r="48.1"/>
+                <text transform="matrix(1 0 0 1 28.9071 73.9991)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="78.1567">?</text>
+            </svg>
+        </div>
+    </section>
+    <section id="scoreboard">
+        <div id="progress"></div>
+        <span id="text-turn">Your turn</span>
+    </section>
+    <section id="self">
+        <div class="circle-container">
+            <svg class="circle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                <circle fill="#bde1a2" cx="50.1" cy="50" r="48.1"/>
+                <text transform="matrix(1 0 0 1 28.9071 73.9991)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="78.1567">?</text>
+            </svg>
+        </div>
+    </section>
+</div>
+
+<% include ./partials/footer.ejs %>

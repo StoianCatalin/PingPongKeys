@@ -1,0 +1,4 @@
+{
+  "/": "PlayController#get_index",
+  "/ajax/connect-with": { "action": "PlayController#wait_for", "method": "post" }
+}
